@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Debbie is a web developer and digital creator building modern, responsive websites and digital experiences.">
+  <meta name="theme-color" content="#090b16">
+  <title>Debbie | Full-Stack Developer & Web Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="header">
+    <a class="logo" href="#home" aria-label="Debbie home">debbie<span>.</span></a>
+    <button class="menu-btn" id="menuBtn" type="button" aria-label="Open navigation menu" aria-controls="navbar" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="navbar" id="navbar" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a class="nav-contact" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-wrap" id="home">
+      <div class="hero-content">
+        <p class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR CREATIVE PROJECTS</p>
+        <h1>Hi, I'm <span class="gradient-text">Debbie.</span></h1>
+        <h2>I build <span id="typing">modern websites</span><span class="typing-cursor" aria-hidden="true">|</span></h2>
+        <p class="hero-text">I turn ideas into thoughtful digital experiences through web development, clean design, and practical solutions that help people and businesses grow online.</p>
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="btn btn-outline" href="#contact">Contact me</a>
+        </div>
+        <div class="hero-meta">
+          <span><span class="meta-icon">✦</span> Creative problem solver</span>
+          <span><span class="meta-icon">⌘</span> Frontend to backend</span>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="portrait-frame">
+          <img src="images/profile.png" alt="Debbie's professional profile portrait" class="profile-photo">
+        </div>
+        <div class="floating-card card-code"><span class="mini-icon purple">⌘</span><span><strong>Clean code</strong><small>Built with purpose</small></span></div>
+        <div class="floating-card card-design"><span class="mini-icon mint">✳</span><span><strong>Creative design</strong><small>Made for people</small></span></div>
+        <span class="visual-spark spark-one">✦</span>
+        <span class="visual-spark spark-two">✧</span>
+      </div>
+    </section>
+
+    <div class="tech-strip" aria-label="Technologies">
+      <span>HTML5</span><i>✦</i><span>CSS3</span><i>✦</i><span>JavaScript</span><i>✦</i><span>React</span><i>✦</i><span>Node.js</span><i>✦</i><span>Express</span>
+    </div>
+
+    <section class="section section-wrap about-section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2>Building useful things<br>for the <span class="gradient-text">digital world.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-photo-card">
+          <img src="images/profile.png" alt="Debbie, web developer and digital creator" loading="lazy">
+          <div class="photo-caption"><span class="caption-line"></span><span>Curiosity. Creativity. Continuous growth.</span></div>
+        </div>
+        <div class="about-copy">
+          <h3>Creativity meets technology.</h3>
+          <p>I'm Debbie, a developer and digital creator who enjoys turning ideas into clear, engaging, and user-friendly online experiences. I like understanding how things work, solving problems, and improving my skills by building real projects.</p>
+          <p>My interests include responsive website design, frontend development, backend fundamentals, APIs, and creative digital solutions. I'm always learning and looking for opportunities to collaborate on meaningful projects.</p>
+          <a class="text-link" href="#contact">Have a project in mind? <span aria-hidden="true">→</span></a>
+          <div class="about-stats">
+            <div><strong>01</strong><span>Keep learning</span></div>
+            <div><strong>02</strong><span>Build with care</span></div>
+            <div><strong>03</strong><span>Grow together</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-wrap" id="skills">
+      <div class="section-heading centered">
+        <p class="eyebrow">MY TOOLKIT</p>
+        <h2>Skills that bring ideas <span class="gradient-text">to life.</span></h2>
+        <p class="section-intro">The tools and technologies I'm using to design, build, and improve digital experiences.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-icon">5</div><h3>HTML5</h3><p>Accessible, well-structured page layouts.</p><div class="skill-track"><span style="width:88%"></span></div></article>
+        <article class="skill-card"><div class="skill-icon">✳</div><h3>CSS3</h3><p>Responsive layouts, styling, and motion.</p><div class="skill-track"><span style="width:82%"></span></div></article>
+        <article class="skill-card"><div class="skill-icon">JS</div><h3>JavaScript</h3><p>Interactive interfaces and browser logic.</p><div class="skill-track"><span style="width:76%"></span></div></article>
+        <article class="skill-card"><div class="skill-icon">⚛</div><h3>React</h3><p>Reusable UI components and interfaces.</p><div class="skill-track"><span style="width:65%"></span></div></article>
+        <article class="skill-card"><div class="skill-icon">N</div><h3>Node.js & Express</h3><p>Server-side JavaScript and REST APIs.</p><div class="skill-track"><span style="width:62%"></span></div></article>
+        <article class="skill-card"><div class="skill-icon">DB</div><h3>Databases & APIs</h3><p>Learning data flow, requests, and integration.</p><div class="skill-track"><span style="width:58%"></span></div></article>
+      </div>
+      <p class="honesty-note">Skill indicators are illustrative and represent my current learning journey, not formal certifications.</p>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT I CAN HELP WITH</p>
+          <h2>Digital ideas, thoughtfully <span class="gradient-text">built.</span></h2>
+        </div>
+        <div class="services-grid">
+          <article class="service-card"><span class="service-number">01 / WEB</span><div class="service-symbol">⌘</div><h3>Web Development</h3><p>Responsive, user-friendly websites built with modern web technologies and a focus on clear functionality.</p><a href="#contact" aria-label="Ask Debbie about web development">Discuss a project ↗</a></article>
+          <article class="service-card"><span class="service-number">02 / DESIGN</span><div class="service-symbol">✳</div><h3>Website Design</h3><p>Clean layouts, thoughtful visual hierarchy, and engaging interfaces that work across screen sizes.</p><a href="#contact" aria-label="Ask Debbie about website design">Discuss a project ↗</a></article>
+          <article class="service-card"><span class="service-number">03 / API</span><div class="service-symbol">{ }</div><h3>API Integration</h3><p>Connecting website interfaces to APIs and learning reliable frontend-to-backend workflows.</p><a href="#contact" aria-label="Ask Debbie about API integration">Discuss a project ↗</a></article>
+          <article class="service-card"><span class="service-number">04 / DIGITAL</span><div class="service-symbol">↗</div><h3>Digital Creativity</h3><p>Creative ideas for online presence, digital content, and practical ways to present a brand online.</p><a href="#contact" aria-label="Ask Debbie about digital creativity">Discuss a project ↗</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-wrap" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2>Projects and <span class="gradient-text">practice.</span></h2>
+        <p class="section-intro">A selection of areas I'm exploring and building. Replace the demo links with your live project URLs as you publish them.</p>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <a class="project-image" href="#contact" aria-label="Ask about web development project"><img src="images/web-development.jfif" alt="Web development and coding concept" loading="lazy"><span class="project-arrow">↗</span></a>
+          <div class="project-info"><p class="project-type">WEB DEVELOPMENT</p><h3>Responsive Website</h3><p>A modern website concept focused on clear structure, responsive layouts, and usability.</p><div class="tag-row"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div>
+        </article>
+        <article class="project-card">
+          <a class="project-image" href="#contact" aria-label="Ask about app development project"><img src="images/app-development.jfif" alt="Application development concept" loading="lazy"><span class="project-arrow">↗</span></a>
+          <div class="project-info"><p class="project-type">APPLICATIONS</p><h3>App Development Study</h3><p>Exploring application experiences, mobile-friendly design, and the development process.</p><div class="tag-row"><span>UI</span><span>Responsive</span><span>Learning</span></div></div>
+        </article>
+        <article class="project-card">
+          <a class="project-image" href="#contact" aria-label="Ask about REST API project"><img src="images/rest-api.jfif" alt="REST API cloud and server infrastructure" loading="lazy"><span class="project-arrow">↗</span></a>
+          <div class="project-info"><p class="project-type">BACKEND & API</p><h3>REST API Practice</h3><p>Learning how clients and servers exchange data through API requests and responses.</p><div class="tag-row"><span>Node.js</span><span>Express</span><span>REST</span></div></div>
+        </article>
+        <article class="project-card">
+          <a class="project-image" href="#contact" aria-label="Ask about website design project"><img src="images/web-design.jfif" alt="Modern ecommerce web design on desktop and mobile" loading="lazy"><span class="project-arrow">↗</span></a>
+          <div class="project-info"><p class="project-type">WEB DESIGN</p><h3>E-commerce Website Concept</h3><p>A shopping website concept with product discovery and a mobile-friendly interface.</p><div class="tag-row"><span>Design</span><span>JavaScript</span><span>UX</span></div></div>
+        </article>
+      </div>
+      <div class="projects-note"><span class="note-star">✦</span><p>These cards currently describe project concepts. Add links to completed demos or GitHub repositories when they're available.</p></div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="section-wrap">
+        <div class="section-heading centered">
+          <p class="eyebrow">LET'S CONNECT</p>
+          <h2>Have an idea? Let's <span class="gradient-text">talk.</span></h2>
+          <p class="section-intro">Have a question, collaboration idea, or project to discuss? Send me a message using the form below.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-copy">
+            <div class="contact-bubble">✉</div>
+            <h3>I'd love to hear from you.</h3>
+            <p>Share a little about what you're working on. I'll get back to you using the email address you provide.</p>
+            <div class="contact-detail"><span class="detail-icon">↗</span><span><strong>Open to opportunities</strong><small>Projects, learning, and collaboration</small></span></div>
+            <div class="contact-detail"><span class="detail-icon">⌘</span><span><strong>Web development</strong><small>Frontend, backend, and design</small></span></div>
+          </div>
+          <form class="contact-form" id="contactForm" action="https://formspree.io/f/mrpebpej" method="POST">
+            <input type="hidden" name="_subject" value="New portfolio message for Debbie">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" placeholder="e.g. Alex Johnson" autocomplete="name" required minlength="2">
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text" placeholder="What would you like to discuss?" required>
+            <label for="message">Your message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required minlength="10"></textarea>
+            <button class="btn btn-primary submit-btn" id="submitBtn" type="submit">Send message <span aria-hidden="true">↗</span></button>
+            <p class="form-message" id="formMessage" role="status" aria-live="polite"></p>
+            <p class="form-footnote">Your details are used to respond to your message. Don't include passwords or sensitive information.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="logo" href="#home">debbie<span>.</span></a>
+    <p>Building ideas into digital experiences.</p>
+    <div class="footer-links"><a href="#home">Home</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div>
+    <p class="copyright">© <span id="year"></span> Debbie. Made with care.</p>
+  </footer>
+</body>
+</html>
